@@ -3,10 +3,46 @@
 <html>
 
 <head>
+	<title>HTML Feedback Form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	<h3>Feedback Form</h3>
+	<form action="#" method="post">
+		<div class="C">
+			<label for="name" id="name" class="L">Name :-</label>
+			<br>
+			<input type="text"
+				placeholder="Full name"
+				name="name"
+				class="I"
+				required
+				minlength="3"
+				maxlength="50">
+		</div>
+		<div class="C">
+			<label for="portfolio" id="portfolio" class="L">Link for your Webpage:-</label>
+			<br>
+			<input type="link"
+				name="portfolio"
+				placeholder ="First Name"
+				class="I"
+				required>
+		</div>
+		<div class="C">
+			<label for="favColor" id="favColor" class="L">Favourite Colour :-</label>
+			<br>
+			<input type="color" 
+				class="I">
+				</div>
+		<div class="C">
+			<label for="likeness" id="likeness" class="L" >Likeness</label>
+			<br>
+			<input type="range" name="likeness" max="100" min="0" value="50">
+		</div>
+			
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
